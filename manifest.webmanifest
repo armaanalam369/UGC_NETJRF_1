@@ -1,0 +1,22 @@
+{
+  "name": "Wise Choice · UGC NET JRF Paper I",
+  "short_name": "Wise Choice",
+  "description": "Offline UGC NET JRF Paper I practice: shift-wise papers, unit quizzes, analytics and your own question bank.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#060b1a",
+  "theme_color": "#060b1a",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Quick 10", "short_name": "Quick 10", "url": "./index.html?action=quick" },
+    { "name": "Question bank", "short_name": "Questions", "url": "./index.html?action=bank" }
+  ]
+}
