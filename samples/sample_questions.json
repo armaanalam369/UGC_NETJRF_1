@@ -1,0 +1,56 @@
+{
+  "papers": [
+    {
+      "year": 2026, "session": "June", "day": 10, "shift": 1,
+      "questions": [
+        {
+          "unit": 1,
+          "subtopic": "Learning theories",
+          "question": "The Zone of Proximal Development (ZPD) was proposed by —",
+          "options": ["Piaget", "Vygotsky", "Skinner", "Bruner"],
+          "answer": "B",
+          "explanation": "Vygotsky proposed the ZPD: the gap between what a learner can do alone and with guidance."
+        },
+        {
+          "unit": 7,
+          "subtopic": "Tables",
+          "passage": "**Table: Students enrolled (in thousands)**\nYear | Arts | Science | Commerce\n2021 | 120 | 150 | 90\n2022 | 130 | 160 | 95\n2023 | 125 | 175 | 110\nNote: figures are rounded.",
+          "question": "In which year was the total enrolment highest?",
+          "options": ["2021", "2022", "2023", "Cannot be determined"],
+          "answer": "C",
+          "explanation": "Totals: 2021 = 360, 2022 = 385, 2023 = 410. So 2023."
+        },
+        {
+          "unit": 6,
+          "subtopic": "Match the following",
+          "question": "Match List-I with List-II.\nList-I | List-II\nA. Deduction | 1. Particular to general\nB. Induction | 2. General to particular\nC. Analogy | 3. Similarity based",
+          "options": ["A-2, B-1, C-3", "A-1, B-2, C-3", "A-3, B-1, C-2", "A-2, B-3, C-1"],
+          "answer": "A",
+          "explanation": "Deduction goes general → particular; induction goes particular → general; analogy rests on similarity."
+        },
+        {
+          "unit": 7,
+          "subtopic": "Tables (JSON table object)",
+          "table": { "title": "Table: Pass percentage", "head": ["Year", "Boys", "Girls"], "rows": [["2022", "70%", "78%"], ["2023", "74%", "80%"]], "note": "Source: sample data" },
+          "question": "By how many percentage points did girls' pass rate exceed boys' in 2023?",
+          "options": ["4", "6", "8", "10"],
+          "answer": "B",
+          "explanation": "80% − 74% = 6 percentage points."
+        }
+      ]
+    },
+    {
+      "year": 2026, "session": "June", "day": 10, "shift": 2,
+      "questions": [
+        {
+          "unit": 2,
+          "subtopic": "Hypothesis",
+          "question": "H0 stands for —",
+          "options": ["Alternative hypothesis", "Null hypothesis", "Research question", "Variable"],
+          "answer": "B",
+          "explanation": "H0 is the null hypothesis."
+        }
+      ]
+    }
+  ]
+}

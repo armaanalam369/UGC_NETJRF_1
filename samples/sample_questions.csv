@@ -1,0 +1,8 @@
+year,session,day,shift,unit,subtopic,passage,question,option_a,option_b,option_c,option_d,answer,explanation
+2026,June,11,1,1,Learning theories,,The Zone of Proximal Development was proposed by —,Piaget,Vygotsky,Skinner,Bruner,B,Vygotsky proposed the ZPD.
+2026,June,11,1,7,Tables,"Table: Students enrolled (in thousands)
+Year | Arts | Science | Commerce
+2021 | 120 | 150 | 90
+2022 | 130 | 160 | 95
+2023 | 125 | 175 | 110",In which year was total enrolment highest?,2021,2022,2023,Cannot be determined,C,2021 = 360; 2022 = 385; 2023 = 410.
+2026,June,11,2,2,Hypothesis,,H0 stands for —,Alternative hypothesis,Null hypothesis,Research question,Variable,B,H0 is the null hypothesis.

@@ -1,0 +1,16 @@
+Paste this prompt into ChatGPT / Claude / Gemini together with your question paper (PDF text or images):
+
+----------------------------------------------------------------------
+Convert every question in the attached UGC NET Paper I shift paper into JSON, EXACTLY in this shape, and output ONLY the JSON:
+
+{ "papers": [ { "year": 2026, "session": "June", "day": 10, "shift": 1, "questions": [
+  { "unit": 1,                       // 1-10  (1 Teaching, 2 Research, 3 Comprehension, 4 Communication, 5 Maths, 6 Logic, 7 Data Interpretation, 8 ICT, 9 People-Development-Environment, 10 Higher Education)
+    "subtopic": "short sub-topic",
+    "passage": "optional passage text; for a table write one row per line with cells separated by ' | ' (first row = header)",
+    "question": "question text (tables allowed the same way)",
+    "options": ["option A", "option B", "option C", "option D"],
+    "answer": "B",                   // A, B, C or D
+    "explanation": "short explanation" } ] } ] }
+
+Rules: keep question numbers out of the text; write tables with ' | ' between cells and a new line per row; no markdown fences; valid JSON only (escape quotes, use \n for new lines).
+----------------------------------------------------------------------
